@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Pze208zF5cvfgdJ9zLtPf4jiWrbpNsCc8/jMJLm56gA=",
+  "Hash": "AFZwiUB16RNr8p7kG+cmCE9Pb6LO9pWB2T9bdyCylVc=",
   "Source": "BestStoreMVC",
   "BasePath": "_content/BestStoreMVC",
   "Mode": "Default",
@@ -1383,6 +1383,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\2024103110540338.jpg"
+    },
+    {
+      "Identity": "D:\\BestStore\\BestStore\\BestStoreMVC\\wwwroot\\products\\2024103112094157.jpg",
+      "SourceId": "BestStoreMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BestStore\\BestStore\\BestStoreMVC\\wwwroot\\",
+      "BasePath": "_content/BestStoreMVC",
+      "RelativePath": "products/2024103112094157.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\2024103112094157.jpg"
     },
     {
       "Identity": "D:\\BestStore\\BestStore\\BestStoreMVC\\wwwroot\\products\\22866337.jpg",
