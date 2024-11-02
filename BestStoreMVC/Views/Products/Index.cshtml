@@ -1,7 +1,11 @@
 ﻿@model IEnumerable<BestStoreMVC.Models.Product>
 
 @{
-
+    int pageIndex = (int)ViewData["PageIndex"]!;
+    int totalPages = (int)ViewData["TotalPages"]!;
+    string search = (string)ViewData["Search"]!;
+    string column = (string)ViewData["Coulumn"]!;
+    string orderBy = (string)ViewData["OrderBy"]!;
 }
 <h2 class="text-center mb-5">List of Product</h2>
 <div class="row mb-5">
@@ -9,19 +13,45 @@
         <a class="btn btn-primary" asp-controller="Products" asp-action="Create">New Product</a>
     </div>
     <div class="col">
+        <form class="d-flex" role="search">
+            <input class="form-control mr-sm-2" type="search" name="search" value="@search" placeholder="Search by Name or Brand" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
 
 </div>
+
+<script>
+    
+    function sortTable(column) {
+        let orderBy = "desc";
+        let currentColumn = "@ViewData["Column"]";
+        let currentOrder = "@ViewData["OrderBy"]";
+        //let currentColumn = @column;
+        //let currentOrder = @orderBy;
+        if (column == currentColumn) {
+            if (currentOrder == "asc") {
+                orderBy = "desc"
+            }
+            else {
+                orderBy = "asc";
+            }
+        }
+        //window.location.href = "?search=@(search)&column=" + column +"&orderBy="+orderBy
+        window.location.href = `?search=@ViewData["Search"]&column=${column}&orderBy=${orderBy}`;
+
+    }
+</script>
 <table class="table">
     <thead>
         <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Brand</th>
-            <th>Category</th>
-            <th>Price</th>
+            <th style="cursor:pointer" onclick="sortTable('Id')">Id</th>
+            <th style="cursor:pointer" onclick="sortTable('Name')">Name</th>
+            <th style="cursor:pointer" onclick="sortTable('Brand')">Brand</th>
+            <th style="cursor:pointer" onclick="sortTable('Category')">Category</th>
+            <th style="cursor:pointer" onclick="sortTable('Price')">Price</th>
             <th>Image</th>
-            <th>Crated At</th>
+            <th style="cursor:pointer" onclick="sortTable('CreatedAt')">Crated At</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -43,5 +73,26 @@
             </tr>
         }
     </tbody>
-
 </table>
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            string active = "";
+            if (i == pageIndex)
+            {
+                active = "active";
+            }
+            <li class="page-item" @active>
+                <a class="page-link"
+                   asp-route-pageIndex="@i"
+                   asp-route-pageIndex="@i"
+                   asp-route-search="@search"
+                   asp-route-column="@column"
+                   asp-route-orderBy="@orderBy">@i</a>
+            </li>
+        }
+    </ul>
+</nav>
+
