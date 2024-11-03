@@ -1,4 +1,5 @@
-﻿@{
+﻿@model List<Product>
+@{
     ViewData["Title"] = "Home Page";
     ViewData["HomePage"] = true;
 }
@@ -8,18 +9,45 @@
         <div class="row align-items-center g-5">
             <div class="col-md-6">
                 <h1 class="mb-5 display-2"><strong>Best Store of Electronics</strong></h1>
-                <p>Find a large selection of newest electronic devices from most popular brands 
+                <p>
+                    Find a large selection of newest electronic devices from most popular brands
                     and with affordable prices.
                 </p>
 
             </div>
             <div class="col-md-6 text-center">
                 <img src="/images/hero.png" class="img-fluid" alt="hero" />
+                
 
             </div>
 
         </div>
 
     </div>
-    
+
+</div>
+<div class="bg-light">
+    <div class="container py-4">
+        <h2 class="text-center pb-4">Newest Products</h2>
+        <div class="row mb-5 g-3">
+            @foreach (var newestProduct in Model)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="rounded-border shadow p-3 text-center h-100">
+                        <img style="height:180px" src="/products/@newestProduct.ImageFileName" class="img-fluid" alt="..." />
+                        <hr />
+                        <p>Brand:@newestProduct.Brand,Category:@newestProduct.Category</p>
+                        <h4 class="mb-3">$@newestProduct.Price</h4>
+                        <a class="btn btn-primary btn-sm mb-2" href="#" role="button">Details</a>
+                        <button type="button" class="btn btn-warning btn-sm mb-2">
+                            Add To Cart <i class="bg-info bi-cart4"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+            }
+        </div>
+    </div>
+
 </div>
