@@ -13,24 +13,65 @@ namespace BestStoreMVC.Controllers
         {
             this.context = context;
         }
-        public IActionResult Index(int pageIndex)
+        public IActionResult Index(int pageIndex, string? search, string? brand, string? category, string? sort)
         {
             IQueryable<Product> query = context.Products;
             query = query.OrderByDescending(p => p.Id);
+
+            //search
+            if (search is not null && search.Length > 0)
+            {
+                query = query.Where(p => p.Name.Contains(search));
+            }
+
+            //filter
+            if (brand is not null && brand.Length > 0)
+            {
+                query = query.Where(p => p.Brand.Contains(brand));
+            }
+            if (category is not null && category.Length > 0)
+            {
+                query = query.Where(p => p.Category.Contains(category));
+            }
+
+            //price
+            if(sort=="price_asc")
+            {
+                query = query.OrderBy(p => p.Price);
+            }
+            else if (sort== "price_desc")
+            {
+                query = query.OrderByDescending(p => p.Price);
+            }
+            else
+            {
+                //newest product first
+                query = query.OrderByDescending(p => p.Id);
+            }
+
             //pagination functionality
-            if(pageIndex<1)
+            if (pageIndex < 1)
             {
                 pageIndex = 1;
             }
             decimal count = query.Count();
             int totalPages = (int)Math.Ceiling(count / pageSize);
-            query=query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
+            query = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
             //var products = context.Products.OrderByDescending(p => p.Id).ToList();
             var products = query.ToList();
             ViewBag.Products = products;
-            ViewBag.PageIndex=pageIndex;
+            ViewBag.PageIndex = pageIndex;
             ViewBag.TotalPages = totalPages;
-            return View();
+
+            //search
+            var StoreSearchModel = new StoreSearchModel()
+            {
+                Search = search,
+                Brand = brand,
+                Category = category,
+                Sort = sort
+            };
+            return View(StoreSearchModel);
         }
     }
 }

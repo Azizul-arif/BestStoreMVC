@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\models\\storesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\storesearchmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,34 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\migrations\\20241030161342_producttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\migrations\\20241030161342_producttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,16 +38,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "BestStoreMVC\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T16:20:04.998Z",
-              "IsPinned": true
+              "DocumentIndex": 2,
+              "Title": "StoreSearchModel.cs",
+              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\StoreSearchModel.cs",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Models\\StoreSearchModel.cs",
+              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\StoreSearchModel.cs",
+              "RelativeToolTip": "BestStoreMVC\\Models\\StoreSearchModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:15.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,7 +57,7 @@
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Store\\Index.cshtml",
               "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Index.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Store\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAA/AAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T05:05:04.457Z",
               "EditorCaption": ""
@@ -94,14 +70,14 @@
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\StoreController.cs",
               "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\StoreController.cs",
               "RelativeToolTip": "BestStoreMVC\\Controllers\\StoreController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvxYAAAAeAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvzIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T05:04:09.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Index.cshtml",
@@ -113,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\HomeController.cs",
@@ -125,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
@@ -133,81 +109,7 @@
               "RelativeToolTip": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:07:38.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\ProductsController.cs",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "BestStoreMVC\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:18:42.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241030161342_ProductTable.cs",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Migrations\\20241030161342_ProductTable.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Migrations\\20241030161342_ProductTable.cs",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Migrations\\20241030161342_ProductTable.cs",
-              "RelativeToolTip": "BestStoreMVC\\Migrations\\20241030161342_ProductTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:13:42.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Models\\Product.cs",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\Product.cs",
-              "RelativeToolTip": "BestStoreMVC\\Models\\Product.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:09:21.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Program.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Program.cs",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Program.cs",
-              "RelativeToolTip": "BestStoreMVC\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAArwBEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:06:04.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "BestStoreMVC\\Services\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\ApplicationDbContext.cs",
-              "RelativeToolTip": "BestStoreMVC\\Services\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAADwvwwAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T16:04:42.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\appsettings.json",
-              "RelativeDocumentMoniker": "BestStoreMVC\\appsettings.json",
-              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\appsettings.json",
-              "RelativeToolTip": "BestStoreMVC\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAACWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T16:00:35.671Z"
+              "WhenOpened": "2024-11-03T04:07:38.154Z"
             }
           ]
         }
