@@ -38,7 +38,7 @@
                         <hr />
                         <p>Brand:@newestProduct.Brand,Category:@newestProduct.Category</p>
                         <h4 class="mb-3">$@newestProduct.Price</h4>
-                        <a class="btn btn-primary btn-sm mb-2" href="#" role="button">Details</a>
+                        <a class="btn btn-primary btn-sm mb-2" asp-action="Details" asp-controller="Home" asp-route-id="@newestProduct.Id" role="button">Details</a>
                         <button type="button" class="btn btn-warning btn-sm mb-2">
                             Add To Cart <i class="bg-info bi-cart4"></i>
                         </button>

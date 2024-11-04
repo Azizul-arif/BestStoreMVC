@@ -1,6 +1,7 @@
 ﻿using BestStoreMVC.Models;
 using BestStoreMVC.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BestStoreMVC.Controllers
 {
@@ -72,6 +73,16 @@ namespace BestStoreMVC.Controllers
                 Sort = sort
             };
             return View(StoreSearchModel);
+        }
+
+        public IActionResult Details(int id)
+        {
+            var product = context.Products.Find(id);
+            if (product is not null)
+            {
+                return View(product);
+            }
+            return Content("Product Not Found");
         }
     }
 }

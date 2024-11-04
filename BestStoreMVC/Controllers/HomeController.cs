@@ -22,6 +22,16 @@ namespace BestStoreMVC.Controllers
             return View(newProduct);
         }
 
+        public IActionResult Details(int id)
+        {
+            var product = _context.Products.Find(id);
+            if(product is not null)
+            {
+                return View(product);
+            }
+            return Content("Product Not Found");
+        }
+
         public IActionResult Privacy()
         {
             return View();
