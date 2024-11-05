@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\BestStore\\BestStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\views\\store\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BestStoreMVC\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:32:04.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Details.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Store\\Details.cshtml",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Details.cshtml",
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StoreSearchModel.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\StoreSearchModel.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\StoreSearchModel.cs",
@@ -80,37 +97,38 @@
               "RelativeToolTip": "BestStoreMVC\\Models\\StoreSearchModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T09:35:15.99Z"
+              "WhenOpened": "2024-11-04T09:35:15.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Store\\Index.cshtml",
               "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Index.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Store\\Index.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAkwDEAAACHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-04T05:05:04.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StoreController.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\StoreController.cs",
               "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\StoreController.cs",
               "RelativeToolTip": "BestStoreMVC\\Controllers\\StoreController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAABYwBAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T05:04:09.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Index.cshtml",
@@ -123,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\HomeController.cs",
@@ -136,15 +154,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAZAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAABQwBQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-03T04:07:38.154Z"
+              "WhenOpened": "2024-11-03T04:07:38.154Z",
+              "EditorCaption": ""
             }
           ]
         }
