@@ -254,3 +254,4 @@ D:\BestStore\BestStore\BestStoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\Mic
 D:\BestStore\BestStore\BestStoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\BestStore\BestStore\BestStoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\BestStore\BestStore\BestStoreMVC\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\BestStore\BestStore\BestStoreMVC\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
