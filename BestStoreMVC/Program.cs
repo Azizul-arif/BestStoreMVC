@@ -1,4 +1,6 @@
+using BestStoreMVC.Models;
 using BestStoreMVC.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace BestStoreMVC
@@ -16,6 +18,13 @@ namespace BestStoreMVC
                 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
                 options.UseSqlServer(connectionString);
             });
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+            }).AddEntityFrameworkStores<ApplicationDbContext>();
 
             var app = builder.Build();
 
