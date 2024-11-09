@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\BestStore\\BestStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|d:\\beststore\\beststore\\beststoremvc\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E203D4B9-1FFE-4D5C-B951-504747B5CFF8}|BestStoreMVC\\BestStoreMVC.csproj|solutionrelative:beststoremvc\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,6 +79,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BestStoreMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:05:59.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\RegisterDTO.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DatabaseInitializer.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Services\\DatabaseInitializer.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Program.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Program.cs",
@@ -107,12 +124,11 @@
               "RelativeToolTip": "BestStoreMVC\\Program.cs",
               "ViewState": "AQIAAC8AAAAAAAAAAAAWwDUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T13:20:57.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:20:57.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "20241111080552_secondmigration.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Migrations\\20241111080552_secondmigration.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Migrations\\20241111080552_secondmigration.cs",
@@ -124,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\ApplicationUser.cs",
@@ -136,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "20241111075707_secondmigration.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Migrations\\20241111075707_secondmigration.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Migrations\\20241111075707_secondmigration.cs",
@@ -148,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Services\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Services\\ApplicationDbContext.cs",
@@ -160,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Details.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Store\\Details.cshtml",
@@ -172,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Details.cshtml",
@@ -184,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "StoreSearchModel.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Models\\StoreSearchModel.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Models\\StoreSearchModel.cs",
@@ -196,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Store\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Store\\Index.cshtml",
@@ -208,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "StoreController.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\StoreController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\StoreController.cs",
@@ -220,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Home\\Index.cshtml",
@@ -232,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "BestStoreMVC\\Controllers\\HomeController.cs",
@@ -244,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\BestStore\\BestStore\\BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BestStoreMVC\\Views\\Shared\\_Layout.cshtml",
