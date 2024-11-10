@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Best Store</title>
-    <link rel="icon" href="/images/icon.png"/>
+    <link rel="icon" href="/images/icon.png" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BestStoreMVC.styles.css" asp-append-version="true" />
@@ -14,7 +14,8 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="/images/icon.png" alt="..." width="30" class="me-2" />Best Store</a>
+                    <img src="/images/icon.png" alt="..." width="30" class="me-2" />Best Store
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -30,7 +31,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Store" asp-action="Index">Store</a>
                         </li>
-                        
+
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
@@ -45,11 +46,19 @@
                             </ul>
                         </li>
                     </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="LogIn">LogIn</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    @if(ViewData["HomePage"]==null)
+    @if (ViewData["HomePage"] == null)
     {
         <div class="container">
             <main role="main" class="pb-3 mt-3">
