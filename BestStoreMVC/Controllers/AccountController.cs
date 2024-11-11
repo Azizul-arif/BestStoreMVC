@@ -17,5 +17,39 @@ namespace BestStoreMVC.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public async Task <IActionResult> Register(RegisterDTO registerDTO)
+        {
+            if(!ModelState.IsValid)
+            {
+                return View(registerDTO);
+            }
+            var user = new ApplicationUser
+            {
+                FirstName = registerDTO.FirstName,
+                LastName = registerDTO.LastName,
+                UserName = registerDTO.Email,
+                Email = registerDTO.Email,
+                PhoneNumber = registerDTO.PhoneNumber,
+                Address = registerDTO.Address,
+                CreatedAt = DateTime.Now
+            };
+            var result = await _userManager.CreateAsync(user, registerDTO.Password);
+            if(result.Succeeded)
+            {
+                //successful user registration
+                await _userManager.AddToRoleAsync(user, "client");
+
+                //sign in new user
+                await _signInManager.SignInAsync(user,false);
+                return RedirectToAction("Index", "Home");
+            }
+            //registration failed
+            foreach(var error in result.Errors)
+            {
+                ModelState.AddModelError("", error.Description);
+            }
+            return View(registerDTO);
+        }
     }
 }

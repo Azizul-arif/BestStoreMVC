@@ -28,7 +28,7 @@ namespace BestStoreMVC.Services
             if(!exists)
             {
                 var msg = "Client role is not defined and will created";
-                await roleManager.CreateAsync(new IdentityRole("seller"));
+                await roleManager.CreateAsync(new IdentityRole("client"));
             }
             //check if admin exists
             var adminUser=await userManager.GetUsersInRoleAsync("admin");
